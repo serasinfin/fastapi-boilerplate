@@ -43,3 +43,8 @@ share/
 *.swp
 .DS_Store
 Thumbs.db
+
+# Environments
+.env
+.env.local
+.development.env

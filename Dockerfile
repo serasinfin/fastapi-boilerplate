@@ -9,7 +9,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 ARG DATABASE_URL DATABASE_URL="default_values"
-ARG OPEN_AI_SECRET_KEY="default_values"
 ARG PORT
 # Expose the port your FastAPI app will run on
 EXPOSE 5432
